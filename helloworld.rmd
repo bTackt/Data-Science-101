@@ -1,0 +1,19 @@
+---
+title: "Hello World"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an RMarkdown document. It will be the first .rmd file in my GitHub repository!
+
+```{r}
+x <- "Hello, World!"
+x
+y <- c(3, 7, 4, 6, 7, 2)
+sum(y)
+```
